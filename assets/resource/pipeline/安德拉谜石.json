@@ -1,0 +1,18 @@
+{
+    "采集(图像识别)": {
+        "recognition": "TemplateMatch",
+        "template": "安德拉谜石.png",
+        "action": "Click"
+    },
+    "采集(OCR)": {
+        "recognition": "OCR",
+        "expected": "（采集）",
+        "roi": [
+            975,
+            327,
+            67,
+            34
+        ],
+        "action": "Click"
+    }
+}
