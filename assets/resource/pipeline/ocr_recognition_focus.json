@@ -1,0 +1,17 @@
+{
+    "init_ocr_focus": {
+        "next": [
+            "ocr_recognition_focus"
+        ],
+        "timeout": 60000
+    },
+    "ocr_recognition_focus": {
+        "recognition": "OCR",
+        "expected": "（专注采集）",
+        "action": "Click",
+        "post_delay": 6000,
+        "next": [
+            "init_ocr_focus"
+        ]
+    }
+}

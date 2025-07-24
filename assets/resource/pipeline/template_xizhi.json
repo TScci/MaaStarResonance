@@ -1,0 +1,17 @@
+{
+    "init_template_xizhi": {
+        "next": [
+            "template_xizhi"
+        ],
+        "timeout": 60000
+    },
+    "template_xizhi": {
+        "recognition": "TemplateMatch",
+        "template": "细枝.png",
+        "action": "Click",
+        "post_delay": 6000,
+        "next": [
+            "init_template_xizhi"
+        ]
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "init_template_mishi": {
+        "next": [
+            "template_mishi"
+        ],
+        "timeout": 60000
+    },
+    "template_mishi": {
+        "recognition": "TemplateMatch",
+        "template": "安德拉谜石.png",
+        "action": "Click",
+        "post_delay": 6000,
+        "next": [
+            "init_template_mishi"
+        ]
+    }
+}

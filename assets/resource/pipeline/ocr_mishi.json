@@ -1,0 +1,23 @@
+{
+    "init_ocr_mishi": {
+        "next": [
+            "ocr_mishi"
+        ],
+        "timeout": 60000
+    },
+    "ocr_mishi": {
+        "recognition": "OCR",
+        "expected": "（采集）",
+        "roi": [
+            975,
+            327,
+            67,
+            34
+        ],
+        "action": "Click",
+        "post_delay": 6000,
+        "next": [
+            "init_ocr_mishi"
+        ]
+    }
+}

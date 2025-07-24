@@ -1,0 +1,17 @@
+{
+    "init_ocr": {
+        "next": [
+            "ocr_recognition"
+        ],
+        "timeout": 60000
+    },
+    "ocr_recognition": {
+        "recognition": "OCR",
+        "expected": "（采集）",
+        "action": "Click",
+        "post_delay": 6000,
+        "next": [
+            "init_ocr"
+        ]
+    }
+}

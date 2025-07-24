@@ -1,0 +1,23 @@
+{
+    "init_ocr_xizhi": {
+        "next": [
+            "ocr_xizhi"
+        ],
+        "timeout": 60000
+    },
+    "ocr_xizhi": {
+        "recognition": "OCR",
+        "expected": "（采集）",
+        "roi": [
+            925,
+            326,
+            60,
+            36
+        ],
+        "action": "Click",
+        "post_delay": 6000,
+        "next": [
+            "init_ocr_xizhi"
+        ]
+    }
+}

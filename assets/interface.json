@@ -15,12 +15,20 @@
     ],
     "task": [
         {
-            "name": "采集(图像识别)",
-            "entry": "采集(图像识别)"
+            "name": "采集细枝",
+            "entry": "ocr_xizhi"
         },
         {
-            "name": "采集(OCR)",
-            "entry": "采集(OCR)"
+            "name": "采集安德拉谜石",
+            "entry": "ocr_mishi"
+        },
+        {
+            "name": "通用采集(实验性)",
+            "entry": "ocr_recognition"
+        },
+        {
+            "name": "专注采集(实验性)",
+            "entry": "ocr_recognition_focus"
         }
     ]
 }
