@@ -2,8 +2,7 @@
     "init_ocr_mishi": {
         "next": [
             "ocr_mishi"
-        ],
-        "timeout": 60000
+        ]
     },
     "ocr_mishi": {
         "recognition": "OCR",

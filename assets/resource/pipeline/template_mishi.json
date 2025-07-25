@@ -2,8 +2,7 @@
     "init_template_mishi": {
         "next": [
             "template_mishi"
-        ],
-        "timeout": 60000
+        ]
     },
     "template_mishi": {
         "recognition": "TemplateMatch",

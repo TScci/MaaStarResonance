@@ -2,11 +2,16 @@
     "init_ocr": {
         "next": [
             "ocr_recognition"
-        ],
-        "timeout": 60000
+        ]
     },
     "ocr_recognition": {
         "recognition": "OCR",
+        "roi": [
+            813,
+            242,
+            267,
+            330
+        ],
         "expected": "（采集）",
         "action": "Click",
         "post_delay": 6000,

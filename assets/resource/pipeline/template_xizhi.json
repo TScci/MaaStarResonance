@@ -2,8 +2,7 @@
     "init_template_xizhi": {
         "next": [
             "template_xizhi"
-        ],
-        "timeout": 60000
+        ]
     },
     "template_xizhi": {
         "recognition": "TemplateMatch",

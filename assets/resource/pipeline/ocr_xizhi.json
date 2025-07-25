@@ -2,8 +2,7 @@
     "init_ocr_xizhi": {
         "next": [
             "ocr_xizhi"
-        ],
-        "timeout": 60000
+        ]
     },
     "ocr_xizhi": {
         "recognition": "OCR",
