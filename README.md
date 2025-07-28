@@ -1,9 +1,14 @@
 <!-- markdownlint-disable MD033 MD041 -->
 
 <div align="center">
+
 # MaaStarResonance
+
+[![MaaFramework](https://img.shields.io/badge/Powered_by-MaaFramework-blue?logo=github)](https://github.com/MaaXYZ/MaaFramework)
+
 一款星痕共鸣游戏小助手
 基于图像识别技术，更多功能开发中~
+
 </div>
 
 ## 下载与安装
