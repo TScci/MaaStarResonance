@@ -2,7 +2,9 @@
     "init_ocr": {
         "next": [
             "ocr_recognition"
-        ]
+        ],
+        "timeout": 6000,
+        "on_error": "wait_refresh"
     },
     "ocr_recognition": {
         "recognition": "OCR",
@@ -17,6 +19,13 @@
         "post_delay": 6000,
         "next": [
             "init_ocr"
+        ]
+    },
+    "wait_refresh": {
+        "action": "DoNothing",
+        "post_wait_freezes": 30000,
+        "next": [
+            "ocr_recognition"
         ]
     }
 }

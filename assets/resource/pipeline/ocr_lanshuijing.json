@@ -2,7 +2,9 @@
     "init_ocr_lanshuijing": {
         "next": [
             "ocr_lanshuijing"
-        ]
+        ],
+        "timeout": 6000,
+        "on_error": "wait_refresh_lanshuijing"
     },
     "ocr_lanshuijing": {
         "recognition": "OCR",
@@ -17,6 +19,13 @@
         "post_delay": 6000,
         "next": [
             "init_ocr_lanshuijing"
+        ]
+    },
+    "wait_refresh_lanshuijing": {
+        "action": "DoNothing",
+        "post_wait_freezes": 30000,
+        "next": [
+            "ocr_lanshuijing"
         ]
     }
 }

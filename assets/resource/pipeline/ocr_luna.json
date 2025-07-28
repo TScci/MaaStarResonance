@@ -2,7 +2,9 @@
     "init_ocr_luna": {
         "next": [
             "ocr_luna"
-        ]
+        ],
+        "timeout": 6000,
+        "on_error": "wait_refresh_luna"
     },
     "ocr_luna": {
         "recognition": "OCR",
@@ -17,6 +19,13 @@
         "post_delay": 6000,
         "next": [
             "init_ocr_luna"
+        ]
+    },
+    "wait_refresh_luna": {
+        "action": "DoNothing",
+        "post_wait_freezes": 30000,
+        "next": [
+            "ocr_luna"
         ]
     }
 }
