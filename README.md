@@ -11,15 +11,9 @@
 
 </div>
 
-## 下载与安装
-
-请前往 [Releases](https://github.com/TScci/MaaStarResonance/releases) 下载，解压缩后运行’MFAAvalonia.exe‘。
-
 ## 使用说明
 
-### 功能介绍
-
-请参阅 [用户手册](https://github.com/TScci/MaaStarResonance/tree/main/docs/zh_cn)。
+请前往 [Releases](https://github.com/TScci/MaaStarResonance/releases) 下载，参阅 [用户手册](https://github.com/TScci/MaaStarResonance/tree/main/docs/zh_cn)。
 
 ## 免责声明与许可
 
