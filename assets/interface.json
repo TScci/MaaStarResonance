@@ -16,19 +16,31 @@
     "task": [
         {
             "name": "采集细枝",
-            "entry": "ocr_xizhi"
+            "entry": "init_ocr_xizhi"
         },
         {
             "name": "采集安德拉谜石",
-            "entry": "ocr_mishi"
+            "entry": "init_ocr_mishi"
         },
         {
-            "name": "通用采集(实验性)",
-            "entry": "ocr_recognition"
+            "name": "采集卢纳矿",
+            "entry": "init_ocr_luna"
         },
         {
-            "name": "专注采集(实验性)",
-            "entry": "ocr_recognition_focus"
+            "name": "采集富斯托克斯矿",
+            "entry": "init_ocr_fusituokesi"
+        },
+        {
+            "name": "采集蓝水晶原矿",
+            "entry": "init_ocr_lanshuijing"
+        },
+        {
+            "name": "通用采集",
+            "entry": "init_ocr"
+        },
+        {
+            "name": "专注采集",
+            "entry": "init_ocr_focus"
         }
     ]
 }

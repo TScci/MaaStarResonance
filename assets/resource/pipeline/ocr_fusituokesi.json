@@ -1,0 +1,22 @@
+{
+    "init_ocr_fusituokesi": {
+        "next": [
+            "ocr_fusituokesi"
+        ]
+    },
+    "ocr_fusituokesi": {
+        "recognition": "OCR",
+        "expected": "（采集）",
+        "roi": [
+            870,
+            317,
+            190,
+            105
+        ],
+        "action": "Click",
+        "post_delay": 6000,
+        "next": [
+            "init_ocr_fusituokesi"
+        ]
+    }
+}

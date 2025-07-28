@@ -1,0 +1,22 @@
+{
+    "init_ocr_luna": {
+        "next": [
+            "ocr_luna"
+        ]
+    },
+    "ocr_luna": {
+        "recognition": "OCR",
+        "expected": "（采集）",
+        "roi": [
+            875,
+            312,
+            165,
+            113
+        ],
+        "action": "Click",
+        "post_delay": 6000,
+        "next": [
+            "init_ocr_luna"
+        ]
+    }
+}

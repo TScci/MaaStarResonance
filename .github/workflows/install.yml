@@ -54,7 +54,7 @@ jobs:
     runs-on: macos-latest
     strategy:
       matrix:
-        os: [win, macos, linux, android]
+        os: [win]
         arch: [aarch64, x86_64]
       fail-fast: false
 

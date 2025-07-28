@@ -1,0 +1,22 @@
+{
+    "init_ocr_lanshuijing": {
+        "next": [
+            "ocr_lanshuijing"
+        ]
+    },
+    "ocr_lanshuijing": {
+        "recognition": "OCR",
+        "expected": "（采集）",
+        "roi": [
+            869,
+            317,
+            171,
+            101
+        ],
+        "action": "Click",
+        "post_delay": 6000,
+        "next": [
+            "init_ocr_lanshuijing"
+        ]
+    }
+}
