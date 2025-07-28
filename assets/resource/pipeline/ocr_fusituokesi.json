@@ -3,7 +3,7 @@
         "next": [
             "ocr_fusituokesi"
         ],
-        "timeout": 6000,
+        "timeout": 7000,
         "on_error": "wait_refresh_fusituokesi"
     },
     "ocr_fusituokesi": {

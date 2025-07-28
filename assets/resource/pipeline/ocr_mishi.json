@@ -3,7 +3,7 @@
         "next": [
             "ocr_mishi"
         ],
-        "timeout": 6000,
+        "timeout": 7000,
         "on_error": "wait_refresh_mishi"
     },
     "ocr_mishi": {

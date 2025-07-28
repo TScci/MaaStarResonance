@@ -3,7 +3,7 @@
         "next": [
             "ocr_lanshuijing"
         ],
-        "timeout": 6000,
+        "timeout": 7000,
         "on_error": "wait_refresh_lanshuijing"
     },
     "ocr_lanshuijing": {
